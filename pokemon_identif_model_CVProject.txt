@@ -1,0 +1,25 @@
+Pokemon identification -
+input random pokemon
+model train on label pokemon dataset (initially few then keep on adding)
+(get his colour , his structure , his pattern od body)
+output - its name
+
+
+DATASET -(pikachu,Minun,Plusle,option-(chimchar))-
+1- images of pokemon - 500 each with same pixel size eg.512x512 , 256x256 JPG formate
+2- label them with folder
+
+(if there is no enough images , we create roated , fliped images to incrase dataset, what we call it ?)
+
+Minun - Pokemon Journeys - episode - 61 , pokemon advanced - episode - 38 - done 26 images
+Plusle - Pokemon Journeys - episode - 61 , pokemon advanced - episode - 38 - done 26 images
+Pikachu - done 26 images
+
+task -1) make every sample of fix dimensions pixel x pixel - 384x384(avg is 420) - we cant get proper image with 384-changing to 400
+      2) data augmentation ? (duplicate images with rotation or with different angle)
+	3) model trained done
+	4) SimpleCNN Done
+
+
+If want to try we can do more methods just in case 
+Note - add 1 more pokemon with yellow color
